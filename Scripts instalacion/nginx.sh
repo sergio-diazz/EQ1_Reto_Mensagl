@@ -1,4 +1,7 @@
 #!/bin/bash
+#Script creado por Sergio Diaz Lastra
+#25/01/2024
+#Instalación nginx con certificados, actualización del archivo de configuración de matrix.conf y creando los archivos para federar
 scheme='$scheme'
 host='$host'
 server_addr='$server_addr'
