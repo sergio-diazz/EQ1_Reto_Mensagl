@@ -1,4 +1,7 @@
 #!/bin/bash
+#Script creado por Sergio Diaz Lastra
+#25/01/2024
+#Instalación coturn con certificados y actualización del turnserver.conf
 sudo apt update
 sudo apt install coturn -y
 sudo apt update
