@@ -1,7 +1,7 @@
-#!/bin/bash
-mkdir wordpress
-cd wordpress
-echo 'version: "3"
+#Docker-compose creado por Sergio Diaz Lastra
+#25/01/2024
+#Instalación wordpress y mysql
+version: "3"
 # Defines which compose version to use
 services:
   # Services line define which Docker images to run. In this case, it will be MySQL server and WordPress image.
@@ -33,6 +33,4 @@ services:
     volumes:
       ["./:/var/www/html"]
 volumes:
-  mysql: {}' > docker-compose.yml
-sudo docker compose up -d
-exit
+  mysql: {}
