@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#Script creado por Sergio Diaz Lastra
+#25/01/2024
+#Instalación wordpress con docker e instalando docker previamente
 #instalar docker
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg -y
