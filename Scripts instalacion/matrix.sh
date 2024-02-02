@@ -1,4 +1,7 @@
 #!/bin/bash
+#Script creado por Sergio Diaz Lastra
+#25/01/2024
+#Instalación matrix desde su repositorio y actualización del archivo de configuración
 apt update
 apt-get install gnupg2 wget apt-transport-https -y
 wget -qO /usr/share/keyrings/matrix-org-archive-keyring.gpg https://packages.matrix.org/debian/matrix-org-archive-keyring.gpg
