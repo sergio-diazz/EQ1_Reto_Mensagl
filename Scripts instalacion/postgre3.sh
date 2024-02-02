@@ -1,4 +1,7 @@
 #!/bin/bash
+#Script creado por Sergio Diaz Lastra
+#25/01/2024
+#Actualización de los archivos de configuración postgresql.conf y pg_hba.conf
 sudo useradd -G sudo -m synapse -p 1234 -s /usr/bin/bash
 cd /etc/postgresql/16/main
 echo "local   all             postgres                                peer
